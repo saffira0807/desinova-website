@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=900"> <!-- Trik utama -->
+  <title>DESINOVA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+    }
+
+    .container {
+      width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      box-shadow: 5px 0 100px #00000010;
+    }
+
+    p {
+      font-weight: 300;
+    }
+    .header {
+      background-color: #ffffff;
+      height: 80px;
+      width: 100%;
+      max-width: 900px;
+      min-width: 600px;
+      border-radius: 0 0 40px 40px;
+      position: fixed;
+      box-shadow: 0px 0px 10px #55555520;
+    }
+    .header img {
+      margin-left: 20px;
+    }
+    nav {
+      float: right;
+      margin-top: 20px;
+      margin-right: 50px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex; /* menu ke samping */
+      gap: 10px; /* jarak antar menu */
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      font-family: 'Cabin', sans-serif;
+      color: #000000;
+      text-decoration: none;
+      font-weight: 300;
+      padding: 8px 12px;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #dddddd;
+      border-radius: 4px;
+    }
+
+    .sec-1 {
+      background-image: url(images/bg-top.png);
+      background-size: 100% 100%; /* Paksa isi penuh */
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 550px;
+    }
+    .sec-1 .sec-1-content {
+      width: 340px; 
+      padding-top: 100px;
+      padding-left: 90px;
+    }
+    .sec-1-content h1, 
+    .sec-1-content h2,
+    .sec-1-content p {
+      font-family: 'Cabin', sans-serif;
+      color: #ffffff;
+    }
+    .sec-1-content h1 {
+      font-size: 60px;
+    }
+    .sec-1-content h2 {
+      font-size: 20px;
+      margin-top: -30px;
+      margin-bottom: 45px;
+    }
+    .sec-2 {
+      font-family: 'Cabin', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .sec-3 {
+      background-image: url(images/bg-middle1.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 745px;
+    }
+    .sec-4 {
+      font-family: 'Cabin', sans-serif;
+      text-align: center;
+      padding: 50px 150px;
+    }
+    .sec-4 .sec-img {
+      padding: 50px 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="images/logo.png" alt="Logo" height="70px" style="float: left"/>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+    <div class="sec-1" id="home">
+      <div class="sec-1-content">
+          <h1>DESINOVA</h1>
+          <h2>Solusi Grafis UMKM & Personal Branding</h2>
+          <p>Bangun identitas visualmu di media sosial dengan template profesional dan konsultasi langsung bersama desainer berpengalaman.</p>
+          <br />
+          <div class="f-btn">
+            <a href="order.html"><img src="images/order-now.png" width="250px" style="margin-top: 25px;" /></a>
+          </div>
+      </div>
+    </div>
+    <div class="sec-2" id="about">
+      <h1>ABOUT US</h1>
+      <p>Desinova hadir untuk membantu UMKM dan individu membangun branding digital mereka melalui desain visual yang menarik, konsisten, dan mudah digunakan. Kami menyediakan template promosi siap pakai serta layanan konsultasi desain langsung yang efisien dan ramah pengguna, agar kamu bisa fokus pada pengembangan usahamu tanpa perlu repot mendesain dari nol.</p>
+    </div>
+    <div class="sec-3" id="services">
+      
+    </div>
+    <div class="sec-4" id="portfolio">
+      <h1>Our Portfolio</h1>
+      <p>Setiap desain di Desinova dibuat dengan tujuan untuk menyesuaikan dengan kebutuhan bisnismu. Kami menghadirkan contoh-contoh template visual yang fleksibel dan dapat dikustom sesuai identitas merek kamu — agar tampil profesional dan konsisten di media sosial, tanpa ribet.</p>
+      <div class="sec-img">
+        <img src="images/foto.png" width="100%"/>
+      </div>
+    </div>
+    <div class="sec-5" id="contact">
+        <img src="images/bg-bottom.png" width="100%"/>
+    </div>
+  </div>
+</body>
+</html>
